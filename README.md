@@ -1,3 +1,31 @@
+
+# Order Tracking services
+## Features it should include: 
+
+1. List orders with paginations
+        
+        o criteria
+            ▪ id
+            ▪ status
+            ▪ customer name
+            ▪ rider name
+            ▪ merchant name
+            ▪ updated time
+                • last 5, 10, 15 min
+
+        o sort order by updated time ascending display
+        o late order
+            ▪ each step should be finished by 15min (10min warning) except delivering (late: 40min, warning: 30min)
+2. Order by certain criteria
+2. Extra credit features
+2. Realtime update
+2. Dashboard for orders
+2. Polish and UX
+2. Highly reusable
+2. Components Tests
+
+
+-----
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
